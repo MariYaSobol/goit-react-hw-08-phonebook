@@ -1,0 +1,49 @@
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1200;
+}
+
+.Modal {
+  width: 400px;
+  background-color: antiquewhite;
+  padding: 30px 20px;
+}
+
+.Input {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid rgb(215, 156, 17);
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.Input:hover {
+  border: 1px solid rgb(190, 119, 12);
+}
+
+.Label {
+  display: block;
+  font-size: 20px;
+  margin: 20px auto 10px;
+  color: rgb(175, 150, 12);
+  border-radius: 5px;
+}
+
+.ModalBtn {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 20px;
+  background-color: rgb(160, 104, 14);
+  border-radius: 5px;
+  color: white;
+}
