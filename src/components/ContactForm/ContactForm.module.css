@@ -1,0 +1,46 @@
+.contacts_input {
+    display: block;
+    width: 250px;
+    height: 40px;
+    border: 1px solid pink;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: black;
+}
+
+.contacts_input:hover {
+        border: 1px solid violet;
+}
+
+.inputs_bar {
+    display: flex;
+    justify-content: center;
+
+}
+
+.contacts_label {
+    font-size: 24px;
+    font-weight: 500;
+    color: violet;
+}
+
+.contacts_label+.contacts_label {
+    margin-left: 30px;
+}
+
+.contacts_btn {
+    display: block;
+    margin: 50px auto 0;
+    width: 200px;
+    height: 40px;
+    background-color: pink;
+    color: white;
+    font-size: 20px;
+    border: 1px solid pink;
+    border-radius: 5px;
+}
+
+.contacts_btn:hover {
+    border: 1px solid violet;
+    background-color: violet;
+}
